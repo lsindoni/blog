@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Some thoughts on boosting | fastpages</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Some thoughts on boosting" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Boosting" />
+<meta property="og:description" content="Boosting" />
+<link rel="canonical" href="https://lsindoni.github.io/blog/markdown/2021/06/15/boosting.html" />
+<meta property="og:url" content="https://lsindoni.github.io/blog/markdown/2021/06/15/boosting.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-15T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://lsindoni.github.io/blog/markdown/2021/06/15/boosting.html","@type":"BlogPosting","headline":"Some thoughts on boosting","dateModified":"2021-06-15T00:00:00-05:00","datePublished":"2021-06-15T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://lsindoni.github.io/blog/markdown/2021/06/15/boosting.html"},"description":"Boosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://lsindoni.github.io/blog/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">fastpages</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Some thoughts on boosting</h1><p class="page-description">Boosting</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-06-15T00:00:00-05:00" itemprop="datePublished">
+        Jun 15, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="ensembling">Ensembling</h1>
+
+<p>I want to start the series of technical posts with something really simple that turns out to be
+a popular ideal in modeling datasets: boosting. One of the incarnation of this idea, XGBoost,
+is a very popular tool used in data modelling (see the paper [^XGBoost] the <a href="https://xgboost.readthedocs.io/en/latest/">documentation</a> of the library)
+In a nutshell, it is designed to drive feature discovery in the data by aggregating the insights
+generated by a sequence of smaller models, <em>trained sequentially</em> to discover and adapt to the
+shape of the training data. While deep learning methods (e.g. CNN-like architectures) are useful
+in analysing data that have specific structure (images, time series etc.) as they extract
+higher level features, the fact that they are data hungry and the implicit assumptions made on
+the structure and correlation on the various features make them not necessarily the first class
+of methods one should use.</p>
+
+<p>Boosting belongs to a broader set of techniques going under the name of <em>ensembling</em>, which
+tries to achieve performance not by refining a single model, but by combining different models
+trained in different conditions and with different purposes.
+This aggregation is performed so that the weaknesses of a single model are reduced and a more accurate model is generated. Typically the base model $g(x; \theta)$ is taken to be a relatively simple model (like a shallow decision tree), with limited power, which is commonly called a <strong>weak learner</strong>.
+The art of ensembling consists in the organization of a set of weak learners such that the prediction
+of the ensemble has a better modelling performance than a single, complex learner. I will
+refer to [^Dietterich2000] [^Dietterich2002] and [^Murphy] for a more thorough exposition 
+and additional pointers to the literature.</p>
+
+<h2 id="bagging">Bagging</h2>
+
+<p>One type of model ensembling is <strong>bagging</strong> (bootstrap aggregating), where an ensemble is built by training weak learners on
+different subsets of the original datasets, with the prediction of the full model consisting into a suitable aggregation of the outputs of each submodel. The idea behind this technique is that, <strong>if</strong> the learners
+are performing slightly better than random <strong>and if</strong> the learners can be considered statistically independent (e.g. they are trained on non-overlapping subsets of the original dataset, either in terms
+of samples included or in terms of features used), the prediction
+of the ensemble is superior.</p>
+
+<p>In a classification context, for instance, this can be understood by a simple reasoning. If the models are independent (i.e. their misclassifications are uncorrelated, on average) the
+probability that the majority of them is misclassifying is much smaller than the probability of misclassification of a single model.</p>
+
+<p>Bagging allows for parallel training of the weak learners, which can be trained on different
+partitions of the dataset and using different features.
+An example of bagging ensemble is the case of Random Forests of Decision Trees.</p>
+
+<h2 id="additive-models-boosting">Additive models: Boosting</h2>
+
+<p>Bagging essentially leverages on the fact that a set of weak learners trained on a dataset will be
+able to learn the structure of the dataset on average, with different learners capturing different
+relationships between features and outputs as present in the data. A different approach consists
+into training <strong>sequentially</strong> a set of weak learners in such a way that the aggregate additive model
+is able to capture more sophisticated features. This is done by iteratively adapting the
+model by adding at each iteration a new component that tries to learn what previous iterations
+have missed. In discussing this technique I will focus on the case of regression, instead of
+classification, as it is more transparent, in my opinion.</p>
+
+<p>Instead of training a powerful model (which would presumably require a large number
+of data points to avoid to simply memorize the dataset) one considers the general class of models</p>
+
+<p>$
+G(x; {\theta_k}_{k=1}^S) = \sum_{k=1}^{S} w_k g(x; \theta_k)
+$</p>
+
+<p>The idea is to <em>progressively</em> adapt the weak learners so that the expressivity of the aggregate
+model is gradually adapted to the data.</p>
+
+<p>The idea is pretty simple. At each iteration, compute the gradient with respect to the model
+of the loss function evaluated at the current iteration. That gradient represents the linear
+approximation of the change to the model that would ensure a lower loss, a sort of gradient
+descent in function space (then restricted to a particular parametric form). In the case of
+the regression problem with MSE loss, the gradient is just the vector of the residuals, with indices being
+the data points of the training set. The gist of the algorithm consists in just training a new learner
+to match the current residuals and then to add it to the current model. Again, see [^Murphy],
+chapter 16, for further discussion.</p>
+
+<h2 id="comments">Comments</h2>
+
+<p>The fact that the performance on a given dataset is statistically better, in terms of some suitable measure, does not mean that the model should be accepted without questions. For instance, training a random forest
+on a dataset representing how a quantity depends on another might lead to a model with a better performance when statistical errors are considered, but with a poor representation of the function class to which the relationship belongs (e.g. the model might produce a piecewise continuous function instead
+of a smooth one).</p>
+
+<p>Also, boosting is a sort of midway between a parametric model and a nonparametric one, in the
+sense that while a parametric family of learner is chosen, the model itself is adapting to the
+data by expanding the space of functions that can be represented beyond what is allowed by
+the original weak learner. This is rather obvious from the fact that the model used is
+<em>additive</em> in the weak learners, and that each stage of the construction is designed to
+capture different aspects of the dataset which cannot be captured in a single pass in which
+all the learners are exposed to the dataset. This also explains the power of these methods.</p>
+
+<h2 id="why-is-this-interesting">Why is this interesting?</h2>
+
+<p>Apart from having used XGBoost in the past, I have been recently playing with the problem of
+reconstructing the geometry of the expanding universe we live in, given observational data.
+The goal is to have a flexible tool that is automatically adapting to the small number of data
+points available. GPs work well and they are currently used in some areas of Cosmology, but
+it is interesting to consider other options that can be used in a regime in which very few
+points are available and yet the desired model should be expressive enough not to inject
+approximations that are too brutal and not very faithful to the data.
+I was looking in particular at the data presented in the recent paper [^BernardoSaid], see
+the notebooks on GitHub <a href="https://github.com/reggiebernardo/notebooks/tree/main/supp_ntbks_arxiv.2105.12970">here</a>, where
+Gaussian processes are used to model possible gravitational theories.</p>
+
+<p>It is clear that while
+boosted trees are certainly an option, they fail to include the necessary degree of smoothness
+that is implicitly required for the functions for which an interpolation is sought, and some
+other type of weak learner should be used. Alternatively, the choice of Gaussian Processes
+with suitable assumptions on the kernel is the best course of action, as it makes no
+commitment on the parametric form of the model, while retaining the ability of controlling
+smoothness of the class of functions that the model targets.</p>
+
+<h2 id="references">References</h2>
+
+<p>[^XGBoost] Chen, T. and Guestrin, C., 2016, August. Xgboost: A scalable tree boosting system. In Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining (pp. 785-794).</p>
+
+<p>[^Murphy] Murphy, Kevin P. Machine learning: a probabilistic perspective. MIT press, 2012.</p>
+
+<p>[^Dietterich2000] Dietterich, Thomas G. “Ensemble methods in machine learning.” International workshop on multiple classifier systems. Springer, Berlin, Heidelberg, 2000.</p>
+
+<p>[^Dietterich2002] Dietterich, Thomas G. “Ensemble learning.” The handbook of brain theory and neural networks 2 (2002): 110-125.</p>
+
+<p>[^BernardoSaid] Bernardo, Reginald Christian, and Jackson Levi Said. “A data-driven Reconstruction of Horndeski gravity via the Gaussian processes.” arXiv preprint arXiv:2105.12970 (2021). (https://arxiv.org/abs/2105.12970)[https://arxiv.org/abs/2105.12970]</p>
+
+  </div><a class="u-url" href="/blog/markdown/2021/06/15/boosting.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
